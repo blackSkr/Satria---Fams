@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Satria's</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- <header id="header" class="header d-flex flex-column justify-content-center"> -->
+
+    <i class="header-toggle"></i>
+
+    <!-- </header> -->
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section light-background">
+        <img src="assets/img/main/main2-1.jpg" alt="" />
+
+        <div class="container" data-aos="zoom-out">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2 class="text-center">Keluarga Satria disini !</h2>
+              <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p> -->
+              <div class="social-links">
+                <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
+                <!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+                <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
+                <!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section light-background">
+        <!-- <img src="assets/img/main/main1-1.jpg" alt="" /> -->
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Tentang Kami !</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+
+            <div class="swiper-wrapper">
+              <!-- Modal -->
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Jati Satria Pratama</h3>
+                        <h4>
+                          Satria Pertama dari bapak Ubadin dan Ibunda Mujirahayu
+                        </h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 22 September 1994
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                      <img
+                        src="assets/img/jati/jati-1.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Yunidiah Saraswati</h3>
+                        <h4>
+                          Putri Tangguh dari bapak Udin dan ibunda
+                        </h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 22 September 1994
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/jati/jati-1.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Btari Zea Saraswatti</h3>
+                        <h4>Dewi Cantik pertama dari Jati & Tyas</h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 8 Mei 2020
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/jati/zea3.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Luluk Satria Prakasa</h3>
+                        <h4>
+                          Satria Kedua dari bapak Ubadin dan Ibunda Mujirahayu
+                        </h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Banjarnegara 18 Agustus 1998
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/luluk/luluk-6.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Rahmayani</h3>
+                        <h4>
+                          Si cantik terakhir dari Bapak Amjar dan ibunda Hamidah
+                        </h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 14 April 1999
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/luluk/luluk-1.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Praya Satria Kalandra</h3>
+                        <h4>Satria Pertama dari Luluk & Maya</h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 19 Februari 2025
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/luluk/raya1.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <h3>Brilian Satria Pamungkas</h3>
+                        <h4>Satria Terakhir dari Bapak Ubadin dan Ibunda Mujirahayu</h4>
+                        <p>
+                          <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                          <span class="bi bi-chevron-right">
+                            Samarinda 6 Juni 2005
+                          </span>
+                          <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/lian/lian4.jpg"
+                        class="img-thumbnail d-block mx-auto"
+                        style="width: 250px; height: 250px; object-fit: cover"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        onclick="showImageModal(this)"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel">
+                    Harta yang paling berharga, adalah ?!
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img
+                    id="modalImage"
+                    src=""
+                    class="img-fluid"
+                    alt="Gambar Keluarga"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Jejak Cerita</h2>
+          <p>
+            Setiap gambar adalah saksi bisu perjalanan cinta dan kebersamaan. Di
+            sini, kita menemukan cerita yang tak hanya terlihat oleh mata,
+            tetapi juga terasa di hati. Sebuah kisah yang tak tertulis dalam
+            kata, tetapi hidup dalam setiap kenangan.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">Semua</li>
+              <li data-filter=".filter-app">Pratama Saraswati</li>
+              <li data-filter=".filter-product">Prakasa Maya</li>
+              <li data-filter=".filter-branding">Lian</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item "
+              >
+                <img
+                  src="assets/img/main/main8.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p>-</p>
+                  <a
+                    href="assets/img/main/main8.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item "
+            >
+              <img
+                src="assets/img/main/main12.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Sweet Couple</h4>
+                <p>-</p>
+                <a
+                  href="assets/img/main/main12.jpg"
+                  title=""
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"
+                  ><i class="bi bi-zoom-in"></i
+                ></a>
+              </div>
+            </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item "
+              >
+                <img
+                  src="assets/img/main/main7.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Kung Era Prime</h4>
+                  <p>-</p>
+                  <a
+                    href="assets/img/main/main7.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item "
+              >
+                <img
+                  src="assets/img/main/main1-1(1).jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Mas Luluk cair proyek 3 Milyar</h4>
+                  <p>Tahun Covid-19</p>
+                  <a
+                    href="assets/img/main/main1-1(1).jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item "
+              >
+                <img
+                  src="assets/img/main/main2-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Wedding ayah ibunya praya</h4>
+                  <p>- 2024</p>
+                  <a
+                    href="assets/img/main/main2-1.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item"
+              >
+                <img
+                  src="assets/img/main/main5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Bareng Pak Yak</h4>
+                  <p>- 2024</p>
+                  <a
+                    href="assets/img/main/main5.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item"
+              >
+                <img
+                  src="assets/img/main/main9.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Sunset Ride</h4>
+                  <p>- 2024</p>
+                  <a
+                    href="assets/img/main/main9.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item"
+              >
+                <img
+                  src="assets/img/main/main4.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>TWOTWO</h4>
+                  <p>- </p>
+                  <a
+                    href="assets/img/main/main4.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item"
+              >
+                <img
+                  src="assets/img/main/main11.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>INCES</h4>
+                  <p>- </p>
+                  <a
+                    href="assets/img/main/main11.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item"
+              >
+                <img
+                  src="assets/img/main/main3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>INCES</h4>
+                  <p>- </p>
+                  <a
+                    href="assets/img/main/main3.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+
+
+              <!-- Pratama -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img src="assets/img/jati/zea6.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Zea</h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/jati/zea6.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img src="assets/img/jati/zea3.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Zea</h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/jati/zea3.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img src="assets/img/jati/zea7.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Zea</h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/jati/zea7.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/jati/jati-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Zea</h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/jati/jati-1.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- Pratama -->
+
+              <!-- Prakasa -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/luluk/raya1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Praya</h4>
+                  <p>SATRIA ANYAR !!!</p>
+                  <a
+                    href="assets/img/luluk/raya1.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/luluk/luluk-5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <!-- <h4>Praya</h4> -->
+                  <!-- <p>SATRIA ANYAR !!!</p> -->
+                  <a
+                    href="assets/img/luluk/luluk-5.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/luluk/luluk-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <!-- <h4>Praya</h4> -->
+                  <!-- <p>SATRIA ANYAR !!!</p> -->
+                  <a
+                    href="assets/img/luluk/luluk-3.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                </div>
+              </div>
+
+              <!-- Prakasa -->
+
+              <!-- Lian -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/lian/lian1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/lian/lian1.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/lian/lian2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/lian/lian2.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/lian/lian3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <!-- <p>Lorem ipsum, dolor sit</p> -->
+                  <a
+                    href="assets/img/lian/lian3.jpg"
+                    title=""
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Lian -->
+
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+      <!-- Contact Section -->
+
+      <!-- /Contact Section -->
+    </main>
+    <!-- 
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Brandon Johnson</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <!-- <div id="preloader"></div> -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      function showImageModal(element) {
+        let modalImg = document.getElementById("modalImage");
+        modalImg.src = element.src; // Ganti src modal dengan gambar yang diklik
+      }
+    </script>
+  </body>
+</html>
